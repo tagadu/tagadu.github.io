@@ -1,6 +1,5 @@
 body{
     font-family: "Arial";
-    margin: 20px
 }
 h1{
     font-size:30px;
@@ -17,17 +16,16 @@ h5{
 h6{
     font-size:14px;
 }
-p, ol{
+p, li{
     font-family: "Calibri";
     font-size:12px;
 }
 .grid{
     display: grid;
-    border: 40px;
-    padding:2px;
-    margin: 2px;
+    margin: 80px;
+    padding:10px;
     border: 2px grey solid;
-    width: 700px;
+    width: 600px;
     height: 1500px;
     grid-template: 1fr 2fr 3fr 3fr 3fr 3fr / 1fr 2fr;
     background-color: whitesmoke;
