@@ -31,3 +31,19 @@ p, li{
     grid-template: 1fr 2fr 3fr 3fr 3fr 3fr / 1fr 2fr;
     background-color: whitesmoke;
 }
+.contact{
+    padding: 10px;
+}
+.about{
+    padding: 10px;
+}
+.education
+{
+    padding: 10px;
+}
+.experience{
+    padding: 10px;
+}
+.skills{
+    padding: 10px;
+}
