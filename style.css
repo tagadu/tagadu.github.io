@@ -1,6 +1,6 @@
 body{
     font-family: "Arial";
-    background-image:url(./background_image_2.jpg);
+    background-image:url("background_image_2.jpg");
 }
 h1{
     font-size:30px;
@@ -32,18 +32,18 @@ p, li{
     background-color: whitesmoke;
 }
 .contact{
-    padding: 10px;
+    padding: 2px 5px;
 }
 .about{
-    padding: 10px;
+    padding: 2px 5px;
 }
 .education
 {
-    padding: 10px;
+    padding: 2px 5px;
 }
 .experience{
-    padding: 10px;
+    padding: 2px 5px;
 }
 .skills{
-    padding: 10px;
+    padding: 2px 5px;
 }
