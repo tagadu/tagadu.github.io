@@ -1,5 +1,6 @@
 body{
     font-family: "Arial";
+    margin: 80px;
 }
 h1{
     font-size:30px;
@@ -24,9 +25,9 @@ p, li{
     display: grid;
     margin: 80px;
     padding:10px;
-    border: 2px grey solid;
+    border: 20px grey solid;
     width: 600px;
-    height: 1500px;
+    height: 1400px;
     grid-template: 1fr 2fr 3fr 3fr 3fr 3fr / 1fr 2fr;
     background-color: whitesmoke;
 }
