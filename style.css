@@ -24,7 +24,7 @@ p{
     display: grid;
     border: 2px grey solid;
     width: 800px;
-    height: 1200px;
+    height: 1000px;
     grid-template: 1fr 2fr 3fr 3fr 3fr 3fr / 1fr 2fr;
     background-color: whitesmoke;
 }
