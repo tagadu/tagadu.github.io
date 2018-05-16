@@ -23,7 +23,8 @@ p, ol{
 }
 .grid{
     display: grid;
-    border: 20px;
+    border: 40px;
+    padding:2px;
     margin: 2px;
     border: 2px grey solid;
     width: 700px;
