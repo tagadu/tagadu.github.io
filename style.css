@@ -11,10 +11,10 @@ h4{
     font-size: 22px
 }
 h5{
-    font-size: 28px;
+    font-size: 16px;
 }
 h6{
-    font-size:16px;
+    font-size:14px;
 }
 p{
     font-family: "Calibri";
@@ -23,8 +23,8 @@ p{
 .grid{
     display: grid;
     border: 2px grey solid;
-    width: 400px;
-    height: 800px;
-    grid-template: 1fr 2fr / 1fr 1fr 3fr 5fr 5fr 5fr;
+    width: 800px;
+    height: 1200px;
+    grid-template: 1fr 2fr 3fr 3fr 3fr 3fr / 1fr 2fr;
     background-color: whitesmoke;
 }
