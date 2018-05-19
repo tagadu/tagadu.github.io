@@ -11,11 +11,11 @@
     border: 2px black;
     width: 600px;
     height: 1400px;
-    grid-template: 1fr 1fr 5fr / 1fr 3fr;
+    grid-template: 1fr 1fr 2fr 2fr 3fr / 1fr 3fr;
     background-color: whitesmoke;
 }
 header{
-    grid-area: "header";
+    grid-area: 1 / 1 / span 1 / span 2;
     font-family: 'Lucida Grande';
     font-size: 40px;
     letter-spacing: 0.60em;
@@ -47,27 +47,16 @@ p{
     font-family: 'Arial';
     font-size: 12px;
 }
-.titre{
-   grid-area: "title";
+.subhead{
+   grid-area: 2 / 1 / span 1 / span 2;
 }
 .contact{
-    padding: 2px 5px;
-    grid-area: "contact"
+    grid-area: 3 /1 / span 1 / span 1;
 }
 .about{
-    padding: 2px 5px;
-    grid-area:"about"
+    grid-area: 4 / 1 / span 1 / span 1;
 }
-.education
+.description
 {
-    padding: 2px 5px;
-    grid-area:"education"
-}
-.experience{
-    padding: 2px 5px;
-    grid-area:"experience"
-}
-.skills{
-    padding: 2px 5px;
-    grid-area:"skills";
+    grid-area: 3 / 2 / span 4 / span 1;
 }
