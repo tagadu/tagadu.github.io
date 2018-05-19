@@ -24,7 +24,7 @@ h2{
 
 }
 h4{
-    font-family:'Lucida Sans';
+    font-family:'Lucida Grande';
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 0.50em;
@@ -32,6 +32,7 @@ h4{
 h5{
     font-family:'Arial';
     font-size: 14px;
+    font-weight: bold;
 }
 h6{
     font-family: 'Arial';
