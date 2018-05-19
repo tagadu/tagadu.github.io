@@ -7,7 +7,7 @@
     border: 2px black;
     width: 600px;
     height: 1400px;
-    grid-template: 1fr 2fr 3fr 3fr 3fr 3fr / 1fr 2fr;
+    grid-template: 1fr 2fr 3fr 3fr / 1fr 2fr;
     background-color: whitesmoke;
 }
 h1{
