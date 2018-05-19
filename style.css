@@ -1,7 +1,10 @@
+body{
+background-image: url(https://pixabay.com/photo-2362261/);
+}
 .container{
     display: grid;
     position: relative;
-    margin: 60px auto;
+    margin: 100px auto;
     grid-gap: 10px;
     border: 2px black;
     padding: 40px 20px; 
