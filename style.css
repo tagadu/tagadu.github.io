@@ -1,35 +1,44 @@
-body{
-    font-family: "Arial";
-    background-image:url("background_image_2.jpg");
-}
-h1{
-    font-size:30px;
-}
-h2{
-    font-size: 26px;
-}
-h4{
-    font-size: 22px
-}
-h5{
-    font-size: 16px;
-}
-h6{
-    font-size:14px;
-}
-p, li{
-    font-family: "Calibri";
-    font-size:12px;
-}
-.grid{
+.container{
     display: grid;
-    margin: 10px 40px;
-    padding:40px;
+    position: relative;
+    margin: 20px 60px;
+    grid-gap: 10px;
+    grid-template-areas: "header header" "titre titre" "contact education" "about experience" "skills skills";
     border: 2px black;
     width: 600px;
     height: 1400px;
     grid-template: 1fr 2fr 3fr 3fr 3fr 3fr / 1fr 2fr;
     background-color: whitesmoke;
+}
+h1{
+    font-family: 'Lucida Grande';
+    font-size: 32px;
+    letter-spacing: 0.80em;
+}
+h2{
+    font-family: 'Lucida Grande';
+    font-size: 24px;
+    letter-spacing: 0.80em;
+    color: grey;
+
+}
+h4{
+    font-family:'Arial';
+font-size: 18px;
+font-weight: bold;
+}
+h5{
+    font-family:'Arial';
+    font-size: 14px;
+}
+h6{
+    font-family: 'Arial';
+    font-size: 14px;
+    color: grey;
+}
+p{
+    font-family: 'Calibri';
+    font-size: 12px;
 }
 .contact{
     padding: 2px 5px;
