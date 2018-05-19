@@ -3,7 +3,11 @@
     position: relative;
     margin: 20px 60px;
     grid-gap: 10px;
-    grid-template-areas: "header header" "titre titre" "contact education" "about experience" "skills skills";
+    grid-template-areas: "header header" 
+    "titre titre" 
+    "contact education" 
+    "about experience" 
+    "skills skills";
     border: 2px black;
     width: 600px;
     height: 1400px;
@@ -40,7 +44,7 @@ h6{
     color: grey;
 }
 p{
-    font-family: 'Calibri';
+    font-family: 'Arial';
     font-size: 12px;
 }
 .titre{
