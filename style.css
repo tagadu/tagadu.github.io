@@ -1,6 +1,8 @@
 .container{
     display: grid;
     position: relative;
+    top: 50%;
+    left: 50%;
     margin: 60px 60px;
     grid-gap: 10px;
     border: 2px black;
@@ -13,7 +15,7 @@
 header{
     grid-area: 1 / 1 / span 1 / span 2;
     font-family: 'Lucida Grande';
-    font-size: 40px;
+    font-size: 60px;
     letter-spacing: 0.30em;
     padding: 5px 8px;
 }
