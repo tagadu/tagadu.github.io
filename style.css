@@ -1,6 +1,6 @@
 .container{
     display: grid;
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     margin: 60px 60px;
