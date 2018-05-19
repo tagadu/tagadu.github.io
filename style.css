@@ -3,7 +3,7 @@
     position: relative;
     margin: 20px 60px;
     grid-gap: 10px;
-    grid-template-areas: "header header" 
+    grid-template-areas: "header title" 
     "title title" 
     "contact education" 
     "about experience" 
