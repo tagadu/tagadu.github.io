@@ -14,19 +14,20 @@ header{
     grid-area: "header";
     font-family: 'Lucida Grande';
     font-size: 40px;
-    letter-spacing: 0.70em;
+    letter-spacing: 0.60em;
 }
 h2{
     font-family: 'Lucida Grande';
     font-size: 18px;
-    letter-spacing: 0.70em;
+    letter-spacing: 0.60em;
     color: grey;
 
 }
 h4{
-    font-family:'Arial';
-font-size: 18px;
-font-weight: bold;
+    font-family:'Lucida Sans';
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.50em;
 }
 h5{
     font-family:'Arial';
@@ -40,6 +41,9 @@ h6{
 p{
     font-family: 'Calibri';
     font-size: 12px;
+}
+.titre{
+   grid-area: "title";
 }
 .contact{
     padding: 2px 5px;
