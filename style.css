@@ -3,14 +3,9 @@
     position: relative;
     margin: 20px 60px;
     grid-gap: 10px;
-    grid-template-areas: "header title" 
-    "title title" 
-    "contact education" 
-    "about experience" 
-    "skills skills";
     border: 2px black;
-    width: 800px;
-    height: 1000px;
+    width: 700px;
+    height: 1100px;
     grid-template: 1fr 1fr 3fr / 1fr 3fr;
     background-color: whitesmoke;
 }
@@ -19,6 +14,7 @@ header{
     font-family: 'Lucida Grande';
     font-size: 40px;
     letter-spacing: 0.60em;
+    padding: 2px;
 }
 h2{
     font-family: 'Lucida Grande';
@@ -49,11 +45,13 @@ p{
 }
 .subhead{
    grid-area: 2 / 1 / span 1 / span 2;
+   padding: 2px;
 }
 .contactabout{
     grid-area: 3 / 1 / span 1 / span 1;
+    padding: 2px;
 }
-.description
-{
+.description{
     grid-area: 3 / 2 / span 1 / span 1;
+    padding: 2px;
 }
