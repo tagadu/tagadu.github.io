@@ -1,9 +1,7 @@
 .container{
     display: grid;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: 60px 60px;
+    position: relative;
+    margin: auto;
     grid-gap: 10px;
     border: 2px black;
     padding: 40px 20px; 
