@@ -7,18 +7,19 @@
     border: 2px black;
     width: 600px;
     height: 1400px;
-    grid-template: 1fr 2fr 3fr 3fr / 1fr 2fr;
+    grid-template: 1fr 2fr 3fr 3fr / 1fr 3fr;
     background-color: whitesmoke;
 }
-h1{
+header{
+    grid-area: "header";
     font-family: 'Lucida Grande';
-    font-size: 32px;
-    letter-spacing: 0.80em;
+    font-size: 40px;
+    letter-spacing: 0.70em;
 }
 h2{
     font-family: 'Lucida Grande';
-    font-size: 24px;
-    letter-spacing: 0.80em;
+    font-size: 18px;
+    letter-spacing: 0.70em;
     color: grey;
 
 }
@@ -42,17 +43,22 @@ p{
 }
 .contact{
     padding: 2px 5px;
+    grid-area: "contact"
 }
 .about{
     padding: 2px 5px;
+    grid-area:"about"
 }
 .education
 {
     padding: 2px 5px;
+    grid-area:"education"
 }
 .experience{
     padding: 2px 5px;
+    grid-area:"experience"
 }
 .skills{
     padding: 2px 5px;
+    grid-area:"skills";
 }
