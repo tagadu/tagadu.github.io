@@ -1,4 +1,7 @@
 
+.body{
+    background-image: url("./background_image_2.jpg");
+}
 .container{
     display: grid;
     position: relative;
