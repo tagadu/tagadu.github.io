@@ -1,6 +1,6 @@
 body{
     background-image: url("./background_image_1.jpg");
-    background-repeat: repeat-x;
+    background-repeat: repeat-y;
 }
 .container{
     display: block;
@@ -9,6 +9,8 @@ body{
     padding: 40px 20px; 
     position: relative;
     margin: 100px auto;
+    max-width: 1000;
+    min-width: 200;
 }
 h1{
     font-family: 'Arial Narrow';
@@ -18,28 +20,28 @@ h1{
 }
 h2{
     font-family: 'Arial Narrow';
-    font-size: 25px;
+    font-size: 30px;
     letter-spacing: 0.30em;
     color: grey;
 
 }
 h4{
     font-family:'Arial Narrow';
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     letter-spacing: 0.10em;
 }
 h5{
     font-family:'Arial';
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
 }
 h6{
     font-family: 'Arial';
-    font-size: 14px;
+    font-size: 18px;
     color:rgb(60, 64, 68);
 }
 p, ul{
     font-family: 'Arial';
-    font-size: 12px;
+    font-size: 14px;
 }
