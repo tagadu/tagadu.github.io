@@ -3,6 +3,7 @@ body{
     background-repeat: repeat-x;
 }
 .container{
+    display: block;
     background-color: white;
     border: 2px white;
     padding: 40px 20px; 
