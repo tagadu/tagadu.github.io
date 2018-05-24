@@ -1,3 +1,7 @@
+body{
+    background-image: url("./background_image_1.jpg");
+    background-repeat: repeat-x;
+}
 h1{
     grid-area: 1 / 1 / span 1 / span 2;
     font-family: 'Lucida Grande';
