@@ -6,11 +6,10 @@ body{
     display: block;
     background-color: white;
     border: 2px white;
-    padding: 40px 20px; 
+    padding: 100px 60px; 
     position: relative;
     margin: 100px auto;
-    max-width: 900px;
-    min-width: 200px;
+    max-width: 1000px;
 }
 h1{
     font-family: 'Arial Narrow';
