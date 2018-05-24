@@ -33,15 +33,15 @@ h4{
 }
 h5{
     font-family:'Arial';
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
 }
 h6{
     font-family: 'Arial';
-    font-size: 18px;
+    font-size: 14px;
     color:rgb(60, 64, 68);
 }
 p, ul{
     font-family: 'Arial';
-    font-size: 14px;
+    font-size: 12px;
 }
