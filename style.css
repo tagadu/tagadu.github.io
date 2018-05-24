@@ -11,20 +11,20 @@ body{
     margin: 100px auto;
 }
 h1{
-    font-family: 'Gill Sans';
+    font-family: 'Raleway';
     font-size: 60px;
     letter-spacing: 0.30em;
     padding: 5px 8px;
 }
 h2{
-    font-family: 'Gill Sans';
+    font-family: 'Arial Narrow';
     font-size: 18px;
     letter-spacing: 0.30em;
     color: grey;
 
 }
 h4{
-    font-family:'Gill Sans';
+    font-family:'Arial Narrow';
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 0.10em;
