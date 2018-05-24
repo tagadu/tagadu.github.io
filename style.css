@@ -3,10 +3,7 @@ body{
     background-repeat: repeat-x;
 }
 .container{
-    display: grid;
-    position: relative;
-    margin: 100px auto;
-    grid-gap: 10px;
+    background-color: white;
     border: 2px white;
 }
 h1{
