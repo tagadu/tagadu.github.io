@@ -1,22 +1,20 @@
-
 body{
     background-image: url("./background_image_1.jpg");
     background-repeat: repeat-x;
 }
 .container{
+    display: grid;
     position: relative;
     margin: 100px auto;
     grid-gap: 10px;
     border: 2px white;
-    padding: 40px 20px; 
-    width: 900px;
-    height: 1200px;
-    background-color: white;
 }
 h1{
-    font-family: "Lucida Grande";
-    font-size: 40px;
-    letter-spacing: 0.40em;
+    grid-area: 1 / 1 / span 1 / span 2;
+    font-family: 'Lucida Grande';
+    font-size: 60px;
+    letter-spacing: 0.30em;
+    padding: 5px 8px;
 }
 h2{
     font-family: 'Lucida Grande';
@@ -44,17 +42,4 @@ h6{
 p, ul{
     font-family: 'Arial';
     font-size: 12px;
-}
-.subhead{
-   grid-area: 2 / 1 / span 1 / span 2;
-   padding: 5px 8px;
-}
-.contactabout{
-    grid-area: 3 / 1 / span 1 / span 1;
-    padding: 5px 8px;
-    text-align: justify;
-}
-.description{
-    grid-area: 3 / 2 / span 1 / span 1;
-    padding: 5px 8px;
 }
