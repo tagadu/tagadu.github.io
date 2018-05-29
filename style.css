@@ -45,3 +45,7 @@ p, ul{
     font-family: 'Arial';
     font-size: 12px;
 }
+.btn{
+    background-color: darkgrey;
+    color: white;
+}
