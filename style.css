@@ -48,4 +48,6 @@ p, ul{
 .btn{
     background-color: darkgrey;
     color: white;
+    border: 1px white;
+    justify-content: space-evenly;
 }
